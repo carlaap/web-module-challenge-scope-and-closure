@@ -60,7 +60,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 
 Edit the `ReadMe` file with your answers to the questions below.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). Closures are used in situations involving more than 1 function. This allows the inner function to access variables and scopes of the outer functions, even if the outer function is no longer available, the inner functions saves the variables and scopes of the outer function. 
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -81,9 +81,9 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? Closure is used in 'dansRoll' and 'zoesRoll' because it can access the outer variable 'personalDice'
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? the name will always be the same and the number rolled can change.
+c. What is the lexical scope of `newRoll`? personalDice
 
 
 ### Task 3 - Stretch Goals
